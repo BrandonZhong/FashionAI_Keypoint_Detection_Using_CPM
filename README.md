@@ -5,6 +5,13 @@
 * Rank of the second season: 41/2322
 * Best result: NE = 4.45% for the second season
 
+## To Do
+* Modify FPN, I find there are some inproper setting of FPN.
+* Add some new kinds of feature fusion strategy proposed in recent literatures.
+* Rethink and deal with the key point positioning accuracy of the first stage which is the basis of the following stages.
+* Add PAF to jointly assistant the key point positioning.
+* Some other ideas.
+
 ## Results display
 ![blouse](https://github.com/shaoniangu/Realize_Convolutional_Pose_Machines_On_FashionAI/raw/master/Readme_images/blouse.jpg)
 ![dress](https://github.com/shaoniangu/Realize_Convolutional_Pose_Machines_On_FashionAI/raw/master/Readme_images/dress.jpg)
@@ -85,6 +92,13 @@ The whole set of code files consists of three parts: Results, Train, and Test. A
 * 第一赛季排名：70/2322
 * 第二赛季排名：41/2322
 * 最好成绩：第二赛季B榜NE=4.45%
+
+## 计划实验
+* 修改FPN，我发现FPN的设置有一些问题。
+* 增加近年来文献中提出的几种新的特征融合策略。
+* 重新思考和解决第一阶段的关键点定位精度问题，这是后续阶段的基础。
+* 添加PAF策略辅助关键点定位。
+* 其他一些想法。
 
 ## 结果展示
 ![blouse](https://github.com/shaoniangu/Realize_Convolutional_Pose_Machines_On_FashionAI/raw/master/Readme_images/blouse.jpg)
