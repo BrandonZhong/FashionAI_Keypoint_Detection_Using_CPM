@@ -12,6 +12,10 @@
 * Add PAF to jointly assistant the key point positioning.
 * Some other ideas.
 
+## Summary blog
+* https://blog.csdn.net/qq_28659831/article/details/80032563
+* https://blog.csdn.net/qq_28659831/article/details/80545668
+
 ## Results display
 ![blouse](https://github.com/shaoniangu/Realize_Convolutional_Pose_Machines_On_FashionAI/raw/master/Readme_images/blouse.jpg)
 ![dress](https://github.com/shaoniangu/Realize_Convolutional_Pose_Machines_On_FashionAI/raw/master/Readme_images/dress.jpg)
@@ -99,6 +103,11 @@ The whole set of code files consists of three parts: Results, Train, and Test. A
 * 重新思考和解决第一阶段的关键点定位精度问题，这是后续阶段的基础。
 * 添加PAF策略辅助关键点定位。
 * 其他一些想法。
+
+
+## 总结博客
+* https://blog.csdn.net/qq_28659831/article/details/80032563
+* https://blog.csdn.net/qq_28659831/article/details/80545668
 
 ## 结果展示
 ![blouse](https://github.com/shaoniangu/Realize_Convolutional_Pose_Machines_On_FashionAI/raw/master/Readme_images/blouse.jpg)
