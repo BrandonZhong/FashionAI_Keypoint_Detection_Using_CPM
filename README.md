@@ -1,4 +1,4 @@
-# FashionAI costume key point positioning global challenge *AILAB-ZJU* source code (continue to update latest experiment)
+# FashionAI costume key point positioning global challenge *AILAB-ZJU* source code
 * Name of the competition: Tianchi FashionAI costume key point positioning global challenge
 * Team Name: AILAB-ZJU
 * Rank of the first season: 70/2322
@@ -90,7 +90,7 @@ The whole set of code files consists of three parts: Results, Train, and Test. A
 * run * Run_test.py *  to test. After test, there will be a new csv file, which is the csv file of predicted labels.
 
 
-# FashionAI服饰关键点定位全球挑战赛 *AILAB-ZJU* 源码（持续更新最新实验）
+# FashionAI服饰关键点定位全球挑战赛 *AILAB-ZJU* 源码
 * 比赛名称：天池FashionAI服饰关键点定位全球挑战赛
 * 队伍名称：AILAB-ZJU
 * 第一赛季排名：70/2322
