@@ -399,9 +399,17 @@ class CPM_Model(object):
 
             step = tf.cast(self.global_step, dtype=tf.float64)
 
-            # please set your own learning rate，decayed learning rate in build_loss() is also OK
-            # new_lr =
-            # self.lr = new_lr
+            ## Update Learning rate
+            epcho = step * self.batch_size_np / self.total_num
+            new_lr = tf.cond(tf.less(epcho, tf.constant(10.0, dtype=tf.float64)),
+                             lambda: 0.0002 / 10.0 * epcho,
+                             lambda: tf.cond(tf.less(epcho, tf.constant(20.0, dtype=tf.float64)),
+                                     lambda: tf.constant(0.0002, dtype=tf.float64),
+                                     lambda: tf.cond(tf.less(epcho, tf.constant(30.0, dtype=tf.float64)),
+                                             lambda: 0.0002 - ((epcho - 20.0) / (30.0 - 20.0) * 0.00018),
+                                             lambda: tf.constant(0.00002, dtype=tf.float64)
+                                             )))
+            self.lr = tf.cast(new_lr, tf.float32)
 
             tf.summary.scalar('learning rate', self.lr)
 
